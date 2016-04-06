@@ -1,0 +1,8 @@
+# Site settings
+title: Cosma Cat Home Page
+timezone: Europe/Moscow # временная зона
+encoding: UTF-8
+baseurl: ""
+
+# Build settings
+markdown: kramdown

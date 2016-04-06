@@ -1,0 +1,11 @@
+<header>
+    <h1><a href="{{ site.baseurl }}/">Cosma the blind cat</a></h1>
+    <nav>
+        <a href="{{ site.baseurl }}/">Blog</a>      
+        {% for somepage in site.pages %}
+        {% if somepage.title %}
+        <a href="{{ somepage.url | prepend: site.baseurl }}">{{ somepage.title }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
+</header>
