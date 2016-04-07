@@ -3,6 +3,7 @@ title: Cosma Cat Home Page
 timezone: Europe/Moscow # временная зона
 encoding: UTF-8
 baseurl: ""
+url: http://cosmacat.ru
 
 # Build settings
 markdown: kramdown

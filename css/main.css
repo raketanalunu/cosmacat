@@ -5,7 +5,7 @@ body {
 header {
     background-color: #228b22;
     background-image: url("../images/logo.png");
-    background-position: left bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 60px 60px;
     text-align: center;
@@ -18,8 +18,8 @@ header {
 nav {
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-    font-size: 1.0em; 
-    padding-left: 10px;
+    font-size: 1.2em; 
+    margin-bottom: 70px;
 }
 
 nav a {
@@ -40,7 +40,7 @@ nav a:hover{
       background-position: 1.0em bottom;
    }
    nav {
-       font-size: 1.0em;
+       margin-bottom: 0;
    }
 }
 
