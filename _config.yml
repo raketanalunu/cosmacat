@@ -6,3 +6,11 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      menu: false

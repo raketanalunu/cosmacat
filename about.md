@@ -2,6 +2,7 @@
 layout: page
 title: Story
 permalink: /about/
+menu: true
 ---
 
 <img src="{{ site.url }}/images/avatar.jpg" class="avatar">Cosma is a cute and the most kind blind cat from Saint-Petersburg. She lives happily in a family since 2011. The baby cat is very funny and sweet, she also behaves as an ordinary cat, that even makes some people doubts in her blindness:)
