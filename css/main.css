@@ -15,16 +15,41 @@ header {
     padding: 0.5em;
 }
 
+nav {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1.0em; 
+    padding-left: 10px;
+}
+
+nav a {
+    color: #ffffff; 
+    padding: 0.3em 1.3em;
+
+}
+
+nav a:hover{
+    color: #ffffff;
+    background-color: #1E7E1E;
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 35.5em) {
    header {
       font-size: 1.3em;
       background-position: 1.0em bottom;
+   }
+   nav {
+       font-size: 1.0em;
    }
 }
 
 @media screen and (min-width: 64.0em) {
    header {
       font-size: 2.0em;
+   }
+   nav {
+      font-size: 0.8em; 
    }
 }
 
@@ -51,24 +76,6 @@ h1 a {
 h1 a:hover {
     color: #ffffff;
     text-decoration: none; 
-}
-
-nav {
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    font-size: 0.8em; 
-}
-
-nav a {
-    color: #ffffff; 
-    padding: 0.3em 1.3em;
-
-}
-
-nav a:hover{
-    color: #ffffff;
-    background-color: #1E7E1E;
-    border-radius: 5px;
 }
 
 article {
