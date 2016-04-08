@@ -5,6 +5,18 @@ permalink: /donate/
 menu: true
 ---
 
-Cosma dreams about soft comfortable cats bed. You can help us to byu her one. :)
+Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
 
-<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/shop.xml?account=410011261306506&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets=For+Cosma&default-sum=100&button-text=04&comment=on&hint=&successURL=http%3A%2F%2Fcosmacat.ru%2Fthankyou%2F" width="450" height="253"></iframe>
+
+<form method="POST" action="https://cosmacat.ru"> 
+    <input type="hidden" name="receiver" value="410011261306506"> 
+    <input type="hidden" name="formcomment" value="Project: Cosma Cat"> 
+    <input type="hidden" name="short-dest" value="Project: Cosma Cat"> 
+    <input type="hidden" name="quickpay-form" value="small"> 
+    <input type="hidden" name="targets" value="транзакция {order_id}"> 
+    <input type="hidden" name="sum" value="100" data-type="number"> 
+    <input type="hidden" name="comment" value="New staff for Cosma"> 
+    <label><input type="radio" name="paymentType" value="PC">Yandex.Money</label> 
+    <label><input type="radio" name="paymentType" value="AC">Bank account</label> 
+    <input type="submit" value="Donate"> 
+</form>

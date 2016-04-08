@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts %}
+{% assign comics = site.comics | sort: 'date' | reverse %}
+{% for comic in comics %}
     <article>
-        <h2>{{ post.title }}</h2>
-        <p class="date">{{ post.date | date: "%A, %B %-d, %Y" }}</p>
-        {{ post.content }}
+        <h2>{{ comic.title }}</h2>
+        <p class="date">{{ comic.date | date: "%A, %B %-d, %Y" }}</p>
+        {{ comic.content }}
+        {% if comic.photo and comic.instagram %}
+        <p><a href="{{ site.instagramurl }}{{ comic.instagram }}"><img src="/photos/{{ comic.photo }}" /></a></p>
+        {% elsif comic.photo %}
+        <p><img src="/photos/{{ comic.photo }}" /></p>       
+        {% endif %}
         <div class="divider"></div>
     </article>
 {% endfor %}

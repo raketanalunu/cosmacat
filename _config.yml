@@ -4,14 +4,20 @@ timezone: Europe/Moscow # временная зона
 encoding: UTF-8
 baseurl: ""
 url: http://cosmacat.ru
+instagramurl: https://www.instagram.com/p/
 
 # Build settings
 markdown: kramdown
+
+# Collecctions
+collections:
+  comics:
 
 # Defaults
 defaults:
   -
     scope:
+      path: ""
       type: "pages"
     values:
       menu: false
