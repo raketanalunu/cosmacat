@@ -21,3 +21,9 @@ defaults:
       type: "pages"
     values:
       menu: false
+  -
+    scope:
+      path: ""
+      type: "comics"
+    values:
+      pinned: false

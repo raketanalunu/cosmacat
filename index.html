@@ -5,7 +5,9 @@ layout: default
 {% for comic in comics %}
     <article>
         <h2>{{ comic.title }}</h2>
+        {% if comic.pinned == false %}
         <p class="date">{{ comic.date | date: "%A, %B %-d, %Y" }}</p>
+        {% endif %}
         {{ comic.content }}
         {% if comic.photo and comic.instagram %}
         <p><a href="{{ site.instagramurl }}{{ comic.instagram }}"><img src="/photos/{{ comic.photo }}" /></a></p>

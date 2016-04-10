@@ -14,10 +14,11 @@ Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
         <input type="hidden" name="short-dest" value="Project: Cosma Cat"> 
         <input type="hidden" name="quickpay-form" value="donate"> 
         <input type="hidden" name="targets" value="New staff for Cosma"> 
-        <input type="hidden" name="sum" value="100" data-type="number"> 
+        <input type="text" name="sum" value="" data-type="number" maxlength="6" placeholder="Sum"> 
         <input type="hidden" name="successURL" value="http://cosmacat.ru/thankyou/">
-        <input type="text" name="comment" value=""> 
-        <label><input type="radio" name="paymentType" value="PC">Yandex.Money</label> 
-        <label><input type="radio" name="paymentType" value="AC">Bank account</label> 
+        <input type="text" name="comment" value="" placeholder="Your comment"> 
+        <label><input type="radio" checked name="paymentType" value="AC">Bank account</label> 
+        <label><input type="radio" name="paymentType" value="MC">Mobile</label>
+        <label><input type="radio" name="paymentType" value="PC">Yandex.Money</label>  
         <input type="submit" value="Donate"> 
 </form>
