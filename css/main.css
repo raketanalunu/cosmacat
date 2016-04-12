@@ -146,3 +146,56 @@ a i {
 a:hover i {
     color: #bcb09d;
 }
+
+fieldset {
+    border: none;
+}
+
+.button-green,
+.button-blue,
+.button-red,
+.button-orange {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-green {
+    display: block;
+    background-color: #228b22;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.payment {
+    height: 2em;
+    border-radius: 5px;
+    border:2px solid transparent;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.payment:hover {   
+    background-color: rgba(50, 203, 52, 0.5);  
+}  
+
+input[type="radio"]:checked + label {
+       border:2px solid #228b22;
+       background-color: rgba(50, 203, 52, 0.5);  
+}
+
+.payment-mobile {
+   background-image: url("../images/mobile.png"); 
+}
+
+.payment-bank {
+    background-image: url("../images/any-card.png"); 
+}
+
+.payment-yamoney {
+    background-image: url("../images/yamoney.png"); 
+}
