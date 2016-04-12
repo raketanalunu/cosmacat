@@ -10,7 +10,7 @@ layout: default
         {% endif %}
         {{ comic.content }}
         {% if comic.photo and comic.instagram %}
-        <p><a href="{{ site.instagramurl }}{{ comic.instagram }}"><img src="/photos/{{ comic.photo }}" /></a></p>
+        <p><a href="https://www.instagram.com/p/{{ comic.instagram }}/"><img src="/photos/{{ comic.photo }}" /></a></p>
         {% elsif comic.photo %}
         <p><img src="/photos/{{ comic.photo }}" /></p>       
         {% endif %}
