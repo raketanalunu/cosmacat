@@ -7,7 +7,7 @@ menu: true
 
 Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
 
-<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pure-form pure-form-stacked">
+<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pure-form pure-form-stacked" target="_blank">
     <fieldset>
         <input type="hidden" name="receiver" value="410011261306506"> 
         <input type="hidden" name="formcomment" value="Project: Cosma Cat"> 
@@ -18,7 +18,7 @@ Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
         
         <div class="pure-g">
             <label class="pure-u-1 pure-u-md-1-4 field-label">Sum</label>
-            <input class="pure-u-1 pure-u-md-1-2" type="text" name="sum" value="" data-type="number" maxlength="6" placeholder="Sum (rub.)" required>
+            <input class="pure-u-1 pure-u-md-1-2" type="text" name="sum" value="" data-type="number" maxlength="6" placeholder="Sum (rub.)">
             <div class="pure-u-md-1-4"></div>
 
             <label class="pure-u-1 pure-u-md-1-4 field-label">Comment</label>
