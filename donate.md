@@ -47,3 +47,5 @@ Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
         </div>
     </fieldset>
 </form>
+
+<div class="divider"></div>
