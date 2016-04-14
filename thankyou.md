@@ -4,4 +4,6 @@ title: Thank you
 permalink: /thankyou/
 ---
 
-We appreciate your help! Thank you!
+We really appreciate your help! 
+
+![Thank you image]({{ site.baseurl }}/images/thank-you.jpg)
