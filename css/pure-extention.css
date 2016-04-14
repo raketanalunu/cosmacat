@@ -1,0 +1,28 @@
+.pure-form input[type="text"]:focus,
+.pure-form input[type="password"]:focus,
+.pure-form input[type="email"]:focus,
+.pure-form input[type="url"]:focus,
+.pure-form input[type="date"]:focus,
+.pure-form input[type="month"]:focus,
+.pure-form input[type="time"]:focus,
+.pure-form input[type="datetime"]:focus,
+.pure-form input[type="datetime-local"]:focus,
+.pure-form input[type="week"]:focus,
+.pure-form input[type="number"]:focus,
+.pure-form input[type="search"]:focus,
+.pure-form input[type="tel"]:focus,
+.pure-form input[type="color"]:focus,
+.pure-form select:focus,
+.pure-form textarea:focus {
+    outline: 0;
+    border-color: #228b22;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type]):focus {
+    outline: 0;
+    border-color: #228b22;
+}

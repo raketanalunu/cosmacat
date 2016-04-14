@@ -12,19 +12,19 @@ header {
     font-size: 1.0em;
     width: 100%;
     overflow: hidden;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 nav {
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: 1.2em; 
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 
 nav a {
     color: #ffffff; 
-    padding: 0.3em 1.3em;
+    padding: 0.3em 1.0em;
 
 }
 
@@ -32,25 +32,6 @@ nav a:hover{
     color: #ffffff;
     background-color: #1E7E1E;
     border-radius: 5px;
-}
-
-@media screen and (min-width: 35.5em) {
-   header {
-      font-size: 1.3em;
-      background-position: 1.0em bottom;
-   }
-   nav {
-       margin-bottom: 0;
-   }
-}
-
-@media screen and (min-width: 64.0em) {
-   header {
-      font-size: 2.0em;
-   }
-   nav {
-      font-size: 0.8em; 
-   }
 }
 
 a {
@@ -92,18 +73,6 @@ article h2 {
     font-weight: bold;
 }
 
-@media screen and (min-width: 35.5em) {
-   article h2 {
-      font-size: 1.5em;
-   }
-}
-
-@media screen and (min-width: 64.0em) {
-   article h2 {
-      font-size: 1.9em;
-   }
-}
-
 article .date {
     color: #7a7b7c;
 }
@@ -124,7 +93,6 @@ article img {
     width: 128px;
     border-radius: 100%;
     float: right;
-    margin-left: 1.0em;
 }
 
 footer { 
@@ -141,6 +109,7 @@ a i {
     -moz-transition:color .2s ease-in;
     -o-transition:color .2s ease-in;
     transition: all .2s ease-in;
+    margin: 0 0.1em;
 }
 
 a:hover i {
@@ -172,7 +141,6 @@ input[type="radio"] {
 
 .payment {
     height: 2em;
-    border-radius: 5px;
     border:2px solid transparent;
     background-size: auto;
     background-position: 50% 50%;
@@ -194,8 +162,48 @@ input[type="radio"]:checked + label {
 
 .payment-bank {
     background-image: url("../images/any-card.png"); 
+    border-radius: 5px 0 0 5px;
 }
 
 .payment-yamoney {
     background-image: url("../images/yamoney.png"); 
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"] {
+    margin: 0.35em 0;
+}
+
+
+@media screen and (min-width: 35.5em) {
+    
+   header {
+      font-size: 1.3em;
+   }
+   
+    article h2 {
+      font-size: 1.5em;
+   }
+}
+
+@media screen and (min-width: 64.0em) {
+    
+   header {
+      font-size: 2.0em;
+      background-position: 1.0em bottom;
+   }
+   
+   nav {
+      font-size: 0.8em; 
+      margin: 0;
+   }
+   
+   article h2 {
+      font-size: 1.9em;
+   }
+   
+   .avatar {
+      height: 192px;
+      width: 192px;  
+   }
 }
