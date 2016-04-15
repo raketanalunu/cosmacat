@@ -10,8 +10,8 @@ Cosma dreams about soft comfortable cats bed. You can help us to buy her one. :)
 <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml" class="pure-form pure-form-stacked" target="_blank">
     <fieldset>
         <input type="hidden" name="receiver" value="410011261306506"> 
-        <input type="hidden" name="formcomment" value="Project: Cosma Cat"> 
-        <input type="hidden" name="short-dest" value="Project: Cosma Cat"> 
+        <input type="hidden" name="formcomment" value="Cosma Cat"> 
+        <input type="hidden" name="short-dest" value="Cosma Cat"> 
         <input type="hidden" name="quickpay-form" value="donate"> 
         <input type="hidden" name="targets" value="New staff for Cosma"> 
         <input type="hidden" name="successURL" value="http://cosmacat.ru/thankyou/">
